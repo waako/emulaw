@@ -55,6 +55,8 @@ img {
   width: 760px;
   height: 40px;
   background: #eee url(images/footer.gif) no-repeat center;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Navigation from Listapart */
@@ -114,7 +116,6 @@ img {
 
 #footer_right {
   float: right;
-  width: 150px;
   padding: 12px 16px 0 0;
   text-align: right;
   font-size: x-small;
@@ -122,7 +123,6 @@ img {
 
 #footer_left {
   float: left;
-  width: 600px;
   padding: 14px 0 0 16px;
   text-align: left;
   font-size: x-small;
